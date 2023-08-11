@@ -1,0 +1,106 @@
+.card-container {
+  display: flex;
+  /* justify-content: start; */
+  width: 480px;
+  max-height: 270px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  text-align: left;
+  margin: 10px;
+}
+
+.card__img {
+  max-width: 183px;
+  max-height: 270px;
+}
+
+.card__no-img {
+  width: 183px;
+  height: 270px;
+  background-color: azure;
+  font-size: 24px;
+  text-align: center;
+}
+
+.no-img__text {
+  display: flex;
+  justify-content: center;
+}
+
+.card__right {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  padding: 5px 5px 10px 5px;
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.card__raiting {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 4px solid rgb(233, 0, 0);
+}
+
+.card__date {
+  font-size: 12px;
+  color: rgba(130, 126, 126, 1);
+  padding-left: 0;
+}
+
+.card__desc {
+  margin: 0;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.card__list-catigore {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  padding-left: 0;
+}
+
+.list-catigore__item {
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 5%;
+  background-color: rgba(250, 250, 250, 1);
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  padding: 2px 5px;
+}
+
+.card__star {
+  display: flex;
+  font-size: 15px;
+  /* align-self: center; */
+  /* justify-content: space-around; */
+}
+
+.colorA {
+  border-color: #66e900;
+}
+
+.colorB {
+  border-color: #e9d100;
+}
+
+.colorC {
+  border-color: #e97e00;
+}
+
+.colorD {
+  border-color: #e90000;
+}

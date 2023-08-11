@@ -1,0 +1,8 @@
+.card-collection__container {
+  display: flex;
+  max-width: 1000px;
+  margin: auto auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
